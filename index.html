@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введение в 3D</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-nav px-3 py-2 text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                Timur
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    
+                    Главная
+                  </a>
+                </li>
+                <li>
+                  <a href="#soft" class="nav-link text-white">
+                    Знакомство с 3D
+                  </a>
+                </li>
+                <li>
+                  <a href="#texturing" class="nav-link text-white">
+                    
+                    Текстурирование
+                  </a>
+                </li>
+                <li>
+                  <a href="#model" class="nav-link text-white">
+                    
+                    Моделирование
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#rendering" class="nav-link text-white">
+                    
+                    Рендеринг
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-md-6 header-text">
+                    <h1>Введение в 3D</h1>
+                    <p>3D графика – это совокупность инструментов и приемов, с помощью которых можно создавать объемные объекты. Трехмерная графика довольно часто встречается в самых разных областях нашей жизни.
+                      Вы научитесь понимать основные этапы работы 3D-моделирования.Тут вы можете узнать про самые базовые направления в 3D и можете найти что-то своё.</p>
+                    <!-- <a href="" class="btn button">текст</a> -->
+                </div>
+                <div class="col-md-6">
+                    <!-- квадрат --><img class="img-fluid" src="img/6.png" alt="">
+                    <!-- круг --><img class="img-fluid" src="img/14.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+      </header>
+
+      <section class="levels"> 
+          <div class="container">
+              <div class="row text-center">
+                  <h2>Базовые направлениe 3D</h2>
+              </div>
+              <div class="row text-center">
+                  <div class="col-md-3">Визуализация Интерьера</div>
+                  <div class="col-md-3">Моделирование</div>
+                  <div class="col-md-3">Детализация и текстурирование</div>
+                  <div class="col-md-3">Рендеринг</div>
+              </div>
+          </div>
+      </section>
+
+      <section id="soft" class="soft">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 text-area">
+              <h2 class="text-center">Визуализация Интерьера</h2>
+              <span>Визуализация интерьера — это процесс создания трехмерной модели пространства при помощи формы и цвета. Фотореалистичная 3D-картинка покажет, как сочетаются между собой материалы, мебель и декор. Это направлениe имеет большую популярность в архитектуре так как вы можете с легкостью воссоздать в 3D свои идеи. </span>
+              <div class="row">
+                <div class="col-12 text-center">
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Soft">
+                    Подробнее
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="Soft" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-center" id="exampleModalLabel">Пример работы Визуализация Интерьера </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+
+                              <p>Тут вы можете увидеть пример визуализации рабочей комнаты.</p>
+                          
+                              <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="img/modeling/4.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/modeling/2.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/modeling/1.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/bg-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="model" class="model">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/block_02.png" alt="">
+            </div>
+            <div class="col-md-6 text-area">
+              <h2 class="text-center">Моделирование</h2>
+              <span>3D-моделирование более всего подойдет тем, кто любит работать в команде. Работая в большой игровой студии, вам обязательно придется тесно сотрудничать с художниками, аниматорами и другими участниками проектов.</span>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Model">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Model" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Пример работы моделирование</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <img src="img/modeling.gif" class="d-block w-100" alt="">
+                              <p>Вы можете увидеть тут отличный пример этого раздела 3D робота</p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="texturing" class="texturing">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 text-area">
+              <h2 class="text-center">Детализация и текстурирование</h2>
+              <span>Текстурирование – неотъемлемый этап 3d моделирования и визуализации трехмерного объекта. Создание текструры и ее наложение на 3д модель определяют ее качество, реалистичность и точность.
+                Применение профессиональных компьютерных программ, текстурирование 3d max,Blender и т.д. для работы с графикой дают неограниченные возможности работы с 3д-объектами, независимо от сложности конфигурации объекта, вида материалов и прочего.</span>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Texture">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Texture" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Пример работы текстурирование</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12">
+                              <p></p>
+                              <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="4000">
+                                    <img src="img/texturing/shoe.gif" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="img/texturing/shoe.jpg" class="img-fluid d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3 " data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/block_03.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rendering" class="rendering">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/block_01.png" alt="">
+            </div>
+            <div class="col-md-6 text-area">
+              <h2 class="text-center">Рендеринг</h2>
+              <span>3D-рендеринг — процесс преобразования 3D-моделей в 2D-изображения
+                на компьютере. 3D-рендеры могут включать в себя фотореалистичные эффекты или нефотореалистичные стили.</span>
+              <div class="col-12 text-center">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#Render">
+                  Подробнее
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Render" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Пример Рендеринга </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p></p>
+                        
+                        <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2000">
+                              <img src="img/gallery/render.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="img/gallery/render-wire.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            
+                            <div class="carousel-item" data-bs-interval="2000">
+                              <img src="img/gallery/mix.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/works/2.gif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/works/1.gif" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="tima">
+                <img class="img-fluid" src="img/ava.gif" alt="">
+              </div>
+              <h2>Каллиев Тимур</h2>
+              <p>Я Каллиев Тимур студент 3-курса ТУИТ. Начал саморазвиваться в сфере 3D и этим проектом хотел помочь всем начинающим и желающим начать свою деятельность в 3D. 
+                   Справа вы можете увидеть мои примеры работы в 3D</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <div class="container-fluid">
+
+          <div class="row text-center">
+            <h2></h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <iframe width="" height="" src="https://www.youtube.com/embed/O_spJmmST5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="" height="" src="https://www.youtube.com/embed/5pOz-N2p4xs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="" height="" src="https://www.youtube.com/embed/-2HCxy4Kh4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <h2></h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gnA9Ge9xI80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8Odon-JrQ7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hccqcCIGGUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <h2></h2>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/eX1MdYbaTKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/8G5q3vrkH3A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ-CeG8kPmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
